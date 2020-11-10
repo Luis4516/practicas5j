@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Examen1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <!--Nav-->
+    <div class="container">
+        <ul class="nav nav-fill row justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                    <img src="/041120/icons/esto-icon.svg" 
+                    width="40" height="40" alt="" loading="lazy">
+                    <b style="margin-left: 5%;">
+                    Periódico deportivo
+                    </b>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                    <img src="/041120/icons/rdisney-icon.png" 
+                    width="40" height="40" alt="" loading="lazy">
+                    <b style="margin-left: 5%;">
+                        Radio Disney 
+                    </b>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                    <img src="/041120/icons/ligamx-icon.png" 
+                    width="40" height="40" alt="" loading="lazy">
+                    <b style="margin-left: 5%;">
+                    Liga MX
+                    </b>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img src="/041120/icons/company-icon.png" 
+                    width="120" height="40" alt="" loading="lazy">
+                </a>
+            </li>
+            <li class="nav-item-dropdown"">
+                <a class="nav-link text-dark dropdown-toggle" data-toggle="dropdown" 
+                href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="/041120/icons/mxflag-icon.jpg" 
+                width="20" height="15" alt="" loading="lazy" style="margin-bottom: 0.2%;">
+                MX
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <button type="button" class="btn btn-danger" style="height: 5%;">
+                        <b>
+                            Suscríbete
+                        </b>
+                    </button>
+                    <button type="button" class="btn btn-light text-danger ml-2" style="height: 5%;">
+                        <b>
+                            Iniciar sesión
+                        </b>
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </div>        
+        
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger col-12">
+        <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarTogglerDemo01" 
+        aria-controls="navbarTogglerDemo01" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="margin-left: 10%;">
+            <a class="navbar-brand hidden-content" href="#">
+                <img src="/041120/icons/companyb-icon.png" 
+                width="20" height="20" alt="" loading="lazy">
+            </a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>
+                            Fútbol
+                        </b>
+                    </a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>
+                        Baloncesto
+                        </b>
+                    </a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>
+                        Motor
+                        </b>
+                    </a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>
+                        Polideportivo
+                        </b>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <b>
+                        Más+
+                        </b>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar en marca.com " aria-label="Search">
+                    <button type="button" class="collapse btn btn-light text-danger ml-2" style="height: 5%;">
+                        <b>
+                            Iniciar sesión
+                        </b>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </nav>
+    
+    <!--Nav EquiposMX-->
+    <nav class="navbar navbar-expand-lg navbar-light py-md-0" id="navbar2">
+        <button class="navbar-toggler my-sm-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand text-center" href="#">MxTeams</a>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent2">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/america-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/atlas-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/chivas-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/cruzazul-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/guerrero-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/leon-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/monterrey-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/necaxa-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/pachuca-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/pumas-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/sanluis-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/santos-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/tigres-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/toluca-icon.png">
+                </li>
+                <li class="nav-item">
+                    <img class="limg" src="/041120/icons/xolos-icon.png">
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+    <!--Banner-->
+    <div class="row justify-content-center py-4">
+            <img src="/041120/banners/caliente-banner3.png">
+    </div>
+
+    <!--Noticias-->
+    <div class="container-fluid" style="padding-left: 6%; padding-right: 6%; padding-top: 2%;">
+        <div class="row">
+            <!--Noticia Principal-->
+            <div class="card bg-white text-white">
+                <img src="/041120/images/mxcup-image.jpg" class="card-img" 
+                width="800" height="450" alt="" loading="lazy">
+                <h5 class="bg-primary" style="position: absolute; top: 0%;">CAMPEONES</h5>
+                <div class="card-img-overlay">
+                  <p class="card-text" style="background-color: rgba(0, 0, 0, 0.4); position: absolute; bottom: 30%; font-size: 150%;">Descubre a los favoritos</p>
+                  <h1 class="card-title" style="background-color: rgba(0, 0, 0, 0.4); position: absolute; bottom: 10%; font-size: 400%">El mejor equipo de la decada</h1>
+                </div>
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand">
+                        <small>Rubén Jímenez, Enrique Medina</small>
+                    </a>
+                    <form class="form-inline">
+                        <div class="row">
+                            <a href="#" class="badge">
+                                <div class="row pr-4">
+                                    <img src="/041120/icons/comment-icon.jpg"
+                                    width="15" height="15" alt="" loading="lazy">
+                                    <p class="text-danger ml-2">306</p>
+                                </div>
+                            </a>
+                        </div>
+                    </form>
+                </nav>
+            </div>
+            <!--Noticias laterales-->
+            <ul class="list-group list-group-flush pl-2">
+                <li class="list-group-item">
+                    <div class="row">
+                        <img src="/041120/images/news-image.jpg" width="180" height="90" alt="...">
+                        <div class="col">
+                            <h5 class="text-primary">COPA MUNDIAL</h5>
+                            <h5>Lo que parecía el final</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>A. MOGOLLO, E. BORDA</p>
+                        <a href="#" class="badge" style="margin-left: 30%;">
+                            <div class="row">
+                                <img src="/041120/icons/comment-icon.jpg"
+                                width="15" height="15" alt="" loading="lazy">
+                                <p class="text-danger ml-2">355</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <img src="/041120/images/news2-image.jpg" width="180" height="90" alt="...">
+                        <div class="col">
+                            <h5 class="text-primary">FUTBOL MEXICANO</h5>
+                            <h5>Esta noche hay partido</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>R, CARLOS F, FRANCISCO</p>
+                        <a href="#" class="badge" style="margin-left: 30%;">
+                            <div class="row">
+                                <img src="/041120/icons/comment-icon.jpg"
+                                width="15" height="15" alt="" loading="lazy">
+                                <p class="text-danger ml-2">201</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <img src="/041120/images/news3-image.jpg" width="180" height="90" alt="...">
+                        <div class="col">
+                            <h5 class="text-primary">FUTBOL MEXICANO</h5>
+                            <h5>XOLOS ganador</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>F. RAMIRO, G. EDUARDO</p>
+                        <a href="#" class="badge" style="margin-left: 30%;">
+                            <div class="row">
+                                <img src="/041120/icons/comment-icon.jpg"
+                                width="15" height="15" alt="" loading="lazy">
+                                <p class="text-danger ml-2">907</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Noticias (1) en línea-->
+        <div class="container mt-4">
+            <div class="row not-gutters justify-content-center">
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news4-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">
+                            <h5 class="card-text">Fútbol en una nueva normalidad</h5>
+                            <span class="card-text"><small>Estadios vacíos pero con los mismos aficionados</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news5-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">   
+                            <h5 class="card-text">Todo listo para que empiece la liga</h5>
+                            <span class="card-text"><small>Los jugadores se sienten emocionados</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news6-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">
+                            <h5 class="card-text">Chivas, un equipo que nunca desaparecerá</h5>
+                            <span class="card-text"><small>Uno de los mejores equipos de méxico</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        
+        <!--Noticias (2)-->
+        <div class="container mt-4">
+            <div class="row not-gutters justify-content-center">
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news7-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">
+                            <h5 class="card-text">El deporte que nos mantiene atentos</h5>
+                            <span class="card-text"><small>¿Estás listo para ver a los equipos?</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news8-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">
+                            <h5 class="card-text">Fútbol clásico</h5>
+                            <span class="card-text"><small>Varias decadas de fútbol mexicano</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top " src="/041120/images/news9-image.jpg" alt="Card image cap">
+                        <div class="card-body px-0 pt-3 pb-0">
+                            <h5 class="card-text">Partido amistoso</h5>
+                            <span class="card-text"><small>Llegan a la cancha a jugar limpio</small></span>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--JUMBOTRON-->
+    <div class="jumbotron mb-0 px-5 py-3 text-light" id="jumbotronls" style="background-color: black;">
+        <div class="container">
+            <h3 class=" text-center">Otras webs de Unidad Editorial</h3>
+            <div class="row justfy-content-center">
+                <div class="col-md-3 col-sm-12 text-left px-5">
+                    <p class="my-2"><strong>Marca</strong></p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group">App Marca</li>
+                        <li class="list-group">Apuestas</li>
+                        <li class="list-group">Clasificación</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 text-left px-5">
+                    <p class="my-2"><strong>Ocio y Moda</strong></p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group">Tiramillas</li>
+                        <li class="list-group">Moda</li>
+                        <li class="list-group">BUHO Magazine</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 text-left px-5">
+                    <p class="my-2"><strong>Unidad Editorial</strong></p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group">El Mundo</li>
+                        <li class="list-group">Expansión</li>
+                        <li class="list-group">CuídatePlus</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 text-left px-5">
+                    <p class="my-2"><strong>Formacion y Empleo</strong></p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group">Escuela Unidad Editorial</li>
+                        <li class="list-group">Unidad Editorial</li>
+                        <li class="list-group">Expansión y Empleo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center text-center pt-3">
+                <div class="col-10">
+                    <ul class="list-inline">
+                        <li class="list-item">
+                            <strong><p>© Agosto 2018 Unidad Editorial Informacion Deportiva, S.L.U. Todos los derechos reservados</p></strong>
+                        </li>
+                        <li class="list-inline-item">Términos y condiciones de uso</li>
+                        <li class="list-inline-item">Política de privacidad</li>
+                        <li class="list-inline-item">Politica de coockies</li>
+                        <li class="list-inline-item">Certificado por OJD</li>
+                        <li class="list-inline-item">Contacto</li>
+                        <li class="list-inline-item">Publicidad</li>
+                        <li class="list-inline-item">Ayuda</li>
+                        <li class="list-inline-item">Nuestro equipo</li>
+                        <li class="list-inline-item">Venta de contenidos</li>
+                    </ul>
+                    <ul class="list-inline mt-4">
+                        <li class="list-item">
+                            <strong><p>Siguenos en:</p></strong>
+                        </li>
+                        <li class="list-inline-item">
+                            <button>
+                                <img src="icons/socialmedia4.jpeg" 
+                                width="40" height="40" alt="" loading="lazy"">
+                            </button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button>
+                                <img src="icons/socialmedia3.jpeg" 
+                                width="40" height="40" alt="" loading="lazy"">
+                            </button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button>
+                                <img src="icons/socialmedia2.jpeg" 
+                                width="40" height="40" alt="" loading="lazy"">
+                            </button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button>
+                                <img src="icons/socialmedia.jpeg" 
+                                width="40" height="40" alt="" loading="lazy"">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
